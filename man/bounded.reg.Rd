@@ -47,7 +47,7 @@ normalized to have unit L2 norm before fitting.  Default is
 \code{TRUE}.}
 
 \item{naive}{logical; Compute either 'naive' of 'classic' bounded
-regression: mimicing the Elastic-net, the vector of parameters is
+regression: mimicking the Elastic-net, the vector of parameters is
 rescaled by a coefficient \code{(1+lambda2)} when \code{naive}
 equals \code{FALSE}.  No rescaling otherwise. Default is
 \code{FALSE}.}

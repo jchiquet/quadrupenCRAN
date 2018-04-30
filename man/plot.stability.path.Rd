@@ -40,7 +40,7 @@ plotted. Default is \code{TRUE}. If \code{FALSE}, only the
 
 \item{sel.mode}{a character string, either \code{'rank'} or
 \code{'PFER'}. In the first case, the selection is based on the
-rank of total probabilties by variables along the path: the first
+rank of total probabilities by variables along the path: the first
 \code{nvar} variables are selected (see below). In the second
 case, the PFER control is used as described in Meinshausen and
 Buhlmannn's paper. Default is \code{'rank'}.}
