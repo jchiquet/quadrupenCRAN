@@ -7,9 +7,9 @@ Authors@R: c(
   person("Julien", "Chiquet", , "julien.chiquet@inra.fr", c("aut", "cre"))
   )
 Description: Fits classical sparse regression models with
-    efficient active set algorithms by solving quadratic problems. Also
-    provides a few methods for model selection purpose (cross-validation,
-    stability selection).
+    efficient active set algorithms by solving quadratic problems as described in
+    <arxiv:1210.2077>. Also provides a few methods for model selection purpose 
+    (cross-validation, stability selection).
 License: GPL (>= 3)
 Depends: Rcpp, ggplot2, Matrix
 Imports: reshape2, methods, scales, grid, parallel
@@ -19,4 +19,4 @@ Packaged: 2017-03-06 14:50:18 UTC; jchiquet
 NeedsCompilation: yes
 Author: Julien Chiquet [aut, cre]
 Maintainer: Julien Chiquet <julien.chiquet@inra.fr>
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
