@@ -8,7 +8,7 @@ Authors@R: c(
   )
 Description: Fits classical sparse regression models with
     efficient active set algorithms by solving quadratic problems as described in
-    <arxiv:1210.2077>. Also provides a few methods for model selection purpose 
+    <arXiv:1210.2077>. Also provides a few methods for model selection purpose 
     (cross-validation, stability selection).
 License: GPL (>= 3)
 Depends: Rcpp, ggplot2, Matrix
