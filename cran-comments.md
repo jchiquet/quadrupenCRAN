@@ -1,4 +1,9 @@
 
+This resubmission 
+
+- corrects comma between keywords
+- add reference in the description field
+
 This submission corrects the following request from CRAN maintainers 
 
 * CRAN packages using deprecated entry points in external software
