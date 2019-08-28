@@ -1,8 +1,8 @@
 
-This resubmission 
+This 2nd resubmission 
 
-- corrects comma between keywords
-- add reference in the description field
+- corrects a comma between keywords
+- corrects arXiv spelling
 
 This submission corrects the following request from CRAN maintainers 
 
