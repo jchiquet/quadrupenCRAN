@@ -29,8 +29,8 @@ void choldowndate(mat &R, int j) {
 
     if (x[1] != 0) {
       r = norm(x,2);
-      G <<  x(0) << x(1) << endr
-	<< -x(1) << x(0) << endr;
+      G = { {  x(0), x(1) },
+            { -x(1), x(0) }  };
       G = G / r;
       x(0) = r; x(1) = 0;
     } else {
