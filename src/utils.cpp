@@ -111,7 +111,7 @@ void add_var_enet(uword &n, int &nbr_in, uword &var_in, vec &betaA, uvec &A, sp_
 
 void remove_var_enet(int &nbr_in, uvec &are_in, vec &betaA, uvec &A, mat &xtxA, mat &xAtxA, mat &xtxw, mat &R, uvec &null, bool &usechol, uword &fun) {
 
-  for (int j=0; j<null.n_elem; j++) {
+  for (uword j=0; j<null.n_elem; j++) {
     are_in[A(null[j])]  = 0 ;
     A.shed_row(null[j])     ;
     betaA.shed_row(null[j]) ;
