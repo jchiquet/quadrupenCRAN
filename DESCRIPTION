@@ -5,8 +5,6 @@ Version: 0.2-8
 Date: 2020-11-04
 Authors@R: c(
   person("Julien", "Chiquet", role = c("aut", "cre"), email = "julien.chiquet@inrae.fr",
-      comment = c(ORCID = "0000-0002-3629-3429"),
-  person("Julien", "Chiquet", role = c("aut", "cre"), email = "julien.chiquet@inrae.fr",
       comment = c(ORCID = "0000-0002-3629-3429"))
   )
 Description: Fits classical sparse regression models with
