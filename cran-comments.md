@@ -7,7 +7,7 @@ This submission corrects the following request from CRAN maintainers
 
 * tested remotely with github action (macOS, ubuntu, Windows release, unbuntu devel)
 * tested remotely with winbuilder (devel)
-* tested remotely with R-hub (release Debian, Ubuntu, Fedora)
+* tested remotely with R-hub (release Ubuntu, Fedora)
 * tested locally on Ubuntu 20.04, R 4.0.2
 
 ── R CMD check results ──────────────────────────────────── quadrupen 0.2-8 ────
