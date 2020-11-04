@@ -126,11 +126,11 @@
 ##' @name quadrupen-package
 ##' @aliases quadrupen
 ##' @docType package
-##' @author Julien Chiquet \email{julien.chiquet@@genopole.cnrs.com}
+##' @author Julien Chiquet \email{julien.chiquet@@inrae.fr}
 ##'
 ##' @references
 ##' Yves Grandvalet, Julien Chiquet and Christophe Ambroise,
-##' \href{http://arxiv.org/abs/1210.2077}{Sparsity by Worst-case Quadratic
+##' \href{https://arxiv.org/abs/1210.2077}{Sparsity by Worst-case Quadratic
 ##' Penalties}, arXiv preprint, 2012.
 ##'
 ##' \itemize{%
