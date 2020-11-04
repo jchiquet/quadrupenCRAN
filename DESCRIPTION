@@ -14,11 +14,16 @@ Description: Fits classical sparse regression models with
 License: GPL (>= 3)
 Depends: Rcpp, ggplot2, Matrix
 Imports: reshape2, methods, scales, grid, parallel
-Suggests: testthat
+Suggests: 
+    testthat,
+    spelling,
+    lars,
+    elasticnet,
+    glmnet
 LinkingTo: Rcpp, RcppArmadillo
 Packaged: 2017-03-06 14:50:18 UTC; jchiquet
 NeedsCompilation: yes
-Author: Julien Chiquet [aut, cre]
 Maintainer: Julien Chiquet <julien.chiquet@inrae.fr>
 Encoding: UTF-8
 RoxygenNote: 7.1.1
+Language: en-US

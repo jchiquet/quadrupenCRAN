@@ -17,4 +17,8 @@ Duration: 1m 9s
 
 R CMD check succeeded
 
-* tested remotely github action (macOS, ubuntu, Windows release, unbuntu devel)
+* tested remotely with github action (macOS, ubuntu, Windows release, unbuntu devel)
+
+* tested remotely with winbuilder (devel)
+
+* tested remotely with R-hub (release Debian, Ubuntu, Fedora)

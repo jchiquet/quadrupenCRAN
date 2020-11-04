@@ -31,8 +31,9 @@ test_that("weighted_ quad2theo", {
   lasso.glmn <- glmnet(x,y, penalty.factor=w,lambda.min.ratio=1e-2, thresh=1e-20)
   lasso.quad <- elastic.net(x,y, lambda1=lasso.glmn$lambda*sqrt(n), penscale = w, lambda2=0)
   expect_that(as.matrix(t(lasso.glmn$beta)), is_equivalent_to(as.matrix(lasso.quad@coefficients)))
+  
   ## Check the intercept term also
-  expect_that(lasso.glmn$a0, is_equivalent_to(lasso.quad@mu))
+  expect_equal(as.numeric(lasso.glmn$a0), lasso.quad@mu)
 
 })
 
