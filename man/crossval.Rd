@@ -4,9 +4,17 @@
 \alias{crossval}
 \title{Cross-validation function for quadrupen fitting methods.}
 \usage{
-crossval(x, y, penalty = c("elastic.net", "bounded.reg"), K = 10,
+crossval(
+  x,
+  y,
+  penalty = c("elastic.net", "bounded.reg"),
+  K = 10,
   folds = split(sample(1:nrow(x)), rep(1:K, length = nrow(x))),
-  lambda2 = 0.01, verbose = TRUE, mc.cores = detectCores(), ...)
+  lambda2 = 0.01,
+  verbose = TRUE,
+  mc.cores = detectCores(),
+  ...
+)
 }
 \arguments{
 \item{x}{matrix of features, possibly sparsely encoded
@@ -98,8 +106,8 @@ plot(cv.loo)
 beta.min.10K <- slot(cv.10K, "beta.min")
 beta.min.loo <- slot(cv.loo, "beta.min")
 
-cat("\\nFalse positives with the minimal 10-CV choice: ", sum(sign(beta) != sign(beta.min.10K)))
-cat("\\nFalse positives with the minimal LOO-CV choice: ", sum(sign(beta) != sign(beta.min.loo)))
+cat("\nFalse positives with the minimal 10-CV choice: ", sum(sign(beta) != sign(beta.min.10K)))
+cat("\nFalse positives with the minimal LOO-CV choice: ", sum(sign(beta) != sign(beta.min.loo)))
 }
 
 }

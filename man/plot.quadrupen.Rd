@@ -3,6 +3,7 @@
 \docType{methods}
 \name{plot,quadrupen-method}
 \alias{plot,quadrupen-method}
+\alias{plot.quadrupen}
 \title{Plot method for a quadrupen object}
 \usage{
 \\S4method{plot}{quadrupen}(x, y, xvar = "lambda",

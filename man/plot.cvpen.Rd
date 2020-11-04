@@ -3,6 +3,7 @@
 \docType{methods}
 \name{plot,cvpen-method}
 \alias{plot,cvpen-method}
+\alias{plot.cvpen}
 \title{Plot method for cross validated error of a \code{quadrupen} model}
 \usage{
 \\S4method{plot}{cvpen}(x, y, log.scale=TRUE, reverse=FALSE,
@@ -63,8 +64,8 @@ plot(cv.loo)
 beta.min.10K <- slot(cv.10K, "beta.min")
 beta.min.loo <- slot(cv.loo, "beta.min")
 
-cat("\\nFalse positives with the minimal 10-CV choice: ", sum(sign(beta) != sign(beta.min.10K)))
-cat("\\nFalse positives with the minimal LOO-CV choice: ", sum(sign(beta) != sign(beta.min.loo)))
+cat("\nFalse positives with the minimal 10-CV choice: ", sum(sign(beta) != sign(beta.min.10K)))
+cat("\nFalse positives with the minimal LOO-CV choice: ", sum(sign(beta) != sign(beta.min.loo)))
 }
 
 }

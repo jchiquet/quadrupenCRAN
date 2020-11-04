@@ -4,11 +4,19 @@
 \alias{stability}
 \title{Stability selection for a quadrupen fit.}
 \usage{
-stability(x, y, penalty = c("elastic.net", "bounded.reg"),
-  subsamples = 100, sample.size = floor(n/2), randomize = TRUE,
-  weakness = 0.5, verbose = TRUE, folds = replicate(subsamples,
-  sample(1:nrow(x), sample.size), simplify = FALSE),
-  mc.cores = detectCores(), ...)
+stability(
+  x,
+  y,
+  penalty = c("elastic.net", "bounded.reg"),
+  subsamples = 100,
+  sample.size = floor(n/2),
+  randomize = TRUE,
+  weakness = 0.5,
+  verbose = TRUE,
+  folds = replicate(subsamples, sample(1:nrow(x), sample.size), simplify = FALSE),
+  mc.cores = detectCores(),
+  ...
+)
 }
 \arguments{
 \item{x}{matrix of features, possibly sparsely encoded
@@ -101,9 +109,9 @@ stab <- stability(x,y, subsamples=200, lambda2=1, min.ratio=1e-2)
 ## and per-family error rate, without producing any plot
 stabpath <- plot(stab, cutoff=0.75, PFER=1, plot=FALSE)
 
-cat("\\nFalse positives for the randomized Elastic-net with stability selection: ",
+cat("\nFalse positives for the randomized Elastic-net with stability selection: ",
      sum(labels[stabpath$selected] != "relevant"))
-cat("\\nDONE.\\n")
+cat("\nDONE.\n")
 }
 }
 \references{

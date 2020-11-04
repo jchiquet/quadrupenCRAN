@@ -1,10 +1,11 @@
 Package: quadrupen
 Type: Package
 Title: Sparsity by Worst-Case Quadratic Penalties
-Version: 0.2-7
-Date: 2019-08-27
+Version: 0.2-8
+Date: 2020-11-04
 Authors@R: c(
-  person("Julien", "Chiquet", , "julien.chiquet@inra.fr", c("aut", "cre"))
+  person("Julien", "Chiquet", role = c("aut", "cre"), email = "julien.chiquet@inrae.fr",
+      comment = c(ORCID = "0000-0002-3629-3429"))
   )
 Description: Fits classical sparse regression models with
     efficient active set algorithms by solving quadratic problems as described in
@@ -18,5 +19,6 @@ LinkingTo: Rcpp, RcppArmadillo
 Packaged: 2017-03-06 14:50:18 UTC; jchiquet
 NeedsCompilation: yes
 Author: Julien Chiquet [aut, cre]
-Maintainer: Julien Chiquet <julien.chiquet@inra.fr>
-RoxygenNote: 6.1.1
+Maintainer: Julien Chiquet <julien.chiquet@inrae.fr>
+Encoding: UTF-8
+RoxygenNote: 7.1.1

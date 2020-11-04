@@ -3,6 +3,7 @@
 \docType{methods}
 \name{plot,stability.path-method}
 \alias{plot,stability.path-method}
+\alias{plot.stability.path}
 \title{Plot method for \code{stability.path}.}
 \usage{
 \\S4method{plot}{stability.path}(x, y, xvar = "lambda", annot=TRUE,
