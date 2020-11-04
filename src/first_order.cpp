@@ -35,7 +35,7 @@ int fista_lasso(vec  &x0   ,
     while(!found) {
       // apply proximal operator of the Lasso
       xk = s - df/L ;
-      for (j=0; j<x0.n_elem; j++) {
+      for (uword j=0; j<x0.n_elem; j++) {
 	xk(j) = fmax(0,1-(pen/L)/fabs(xk(j))) * xk(j);
       }
 
@@ -186,7 +186,7 @@ int pathwise_enet(vec&  x0,
   while ((delta > eps/x0.n_elem ) && (iter < max_iter)) {
 
     delta = 0;
-    for (j=0; j<x0.n_elem; j++) {
+    for (uword j=0; j<x0.n_elem; j++) {
       // Soft thresholding operator
       u = x0(j) * (1+gam) + xty(j) - xtxw(j) ;
       xk(j)  = fmax(1-pen/fabs(u),0) * u/(1+gam) ;
