@@ -77,7 +77,6 @@ default), there is nothing to worry about, except a possible slow
 down when any switching to the proximal algorithm is required.
 }
 \examples{
-\dontrun{
 ## Simulating multivariate Gaussian with blockwise correlation
 ## and piecewise constant vector of parameters
 beta <- rep(c(0,1,0,-1,0), c(25,10,25,10,25))
@@ -108,7 +107,6 @@ beta.min.loo <- slot(cv.loo, "beta.min")
 
 cat("\nFalse positives with the minimal 10-CV choice: ", sum(sign(beta) != sign(beta.min.10K)))
 cat("\nFalse positives with the minimal LOO-CV choice: ", sum(sign(beta) != sign(beta.min.loo)))
-}
 
 }
 \seealso{

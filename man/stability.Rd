@@ -86,7 +86,6 @@ to worry about, except a possible slow down when any switching to
 the proximal algorithm is required.
 }
 \examples{
-\dontrun{
 ## Simulating multivariate Gaussian with blockwise correlation
 ## and piecewise constant vector of parameters
 beta <- rep(c(0,1,0,-1,0), c(25,10,25,10,25))
@@ -112,7 +111,7 @@ stabpath <- plot(stab, cutoff=0.75, PFER=1, plot=FALSE)
 cat("\nFalse positives for the randomized Elastic-net with stability selection: ",
      sum(labels[stabpath$selected] != "relevant"))
 cat("\nDONE.\n")
-}
+
 }
 \references{
 N. Meinshausen and P. Buhlmann (2010). Stability

@@ -1,9 +1,17 @@
 
-This submission corrects the following request from CRAN maintainers 
+Resubmission
+
+The initial submission corrects an error that causes the package to be archived
 
   _Suppress warning in C++ due to comparison between signed and unsigne integer_
-  
-* change addresse of maintainer (julien.chiquet@inra.fr -> julien.chiquet@inrae.fr)  
+
+The resubmission corrects the following requests from CRAN maintainers
+
+- formatting in DESCRIPTION (reference/citation)
+- removing dontrun in example
+
+Additional changes:
+  * change address of maintainer (julien.chiquet@inra.fr -> julien.chiquet@inrae.fr)  
 
 * tested remotely with github action (macOS, ubuntu, Windows release, unbuntu devel)
 * tested remotely with winbuilder (devel)
