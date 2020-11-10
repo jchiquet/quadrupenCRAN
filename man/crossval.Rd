@@ -12,7 +12,7 @@ crossval(
   folds = split(sample(1:nrow(x)), rep(1:K, length = nrow(x))),
   lambda2 = 0.01,
   verbose = TRUE,
-  mc.cores = detectCores(),
+  mc.cores = 2,
   ...
 )
 }
@@ -43,8 +43,7 @@ same folds for each \code{lambda2}).}
 \item{verbose}{logical; indicates if the progression (the current
 lambda2) should be displayed. Default is \code{TRUE}.}
 
-\item{mc.cores}{the number of cores to use. The default uses all
-the cores available.}
+\item{mc.cores}{the number of cores to use. The default uses 2 cores.}
 
 \item{...}{additional parameters to overwrite the defaults of the
 fitting procedure identified by the \code{'penalty'} argument. See
@@ -91,13 +90,17 @@ y <- 10 + x \%*\% beta + rnorm(n,0,10)
 
 ## Use fewer lambda1 values by overwritting the default parameters
 ## and cross-validate over the sequences lambda1 and lambda2
+\donttest{
 cv.double <- crossval(x,y, lambda2=10^seq(2,-2,len=50), nlambda1=50)
+}
 ## Rerun simple cross-validation with the appropriate lambda2
 cv.10K <- crossval(x,y, lambda2=slot(cv.double, "lambda2.min"))
 ## Try leave one out also
 cv.loo <- crossval(x,y, K=n, lambda2=slot(cv.double, "lambda2.min"))
 
+\donttest{
 plot(cv.double)
+}
 plot(cv.10K)
 plot(cv.loo)
 

@@ -12,6 +12,7 @@ The resubmission corrects the following requests from CRAN maintainers
 
 Additional changes:
   * change address of maintainer (julien.chiquet@inra.fr -> julien.chiquet@inrae.fr)  
+  * change the default number of cores to 2
 
 * tested remotely with github action (macOS, ubuntu, Windows release, unbuntu devel)
 * tested remotely with winbuilder (devel)
