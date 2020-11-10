@@ -102,9 +102,9 @@ setClass("cvpen",
 #' cv.double <- crossval(x,y, lambda2=10^seq(2,-2,len=50), nlambda1=50)
 #' }
 #' ## Rerun simple cross-validation with the appropriate lambda2
-#' cv.10K <- crossval(x,y, lambda2=slot(cv.double, "lambda2.min"))
+#' cv.10K <- crossval(x,y, lambda2=.25)
 #' ## Try leave one out also
-#' cv.loo <- crossval(x,y, K=n, lambda2=slot(cv.double, "lambda2.min"))
+#' cv.loo <- crossval(x,y, K=n, lambda2=0.25)
 #'
 #' \donttest{
 #' plot(cv.double)
