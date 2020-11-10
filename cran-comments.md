@@ -8,7 +8,7 @@ The initial submission corrects an error that causes the package to be archived
 The resubmission corrects the following requests from CRAN maintainers
 
 - formatting in DESCRIPTION (reference/citation)
-- removing dontrun in example
+- removing dontrun in examples, add donttest only for examples > 5s
 
 Additional changes:
   * change address of maintainer (julien.chiquet@inra.fr -> julien.chiquet@inrae.fr)  
