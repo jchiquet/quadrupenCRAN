@@ -53,9 +53,9 @@ y <- 10 + x \%*\% beta + rnorm(n,0,10)
 cv.double <- crossval(x,y, lambda2=10^seq(2,-2,len=50), nlambda1=50)
 }
 ## Rerun simple cross-validation with the appropriate lambda2
-cv.10K <- crossval(x,y, lambda2=.25)
+cv.10K <- crossval(x,y, lambda2=.2)
 ## Try leave one out also
-cv.loo <- crossval(x,y, K=n, lambda2=0.25)
+cv.loo <- crossval(x,y, K=n, lambda2=0.2)
 
 \donttest{
 plot(cv.double)

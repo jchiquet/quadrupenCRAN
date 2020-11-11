@@ -1,6 +1,7 @@
 # quadrupen 0.2-8	(2020-11-04)
     Minor:
     +   Avoid warning in C++ to pass CRAN checks, thanks to a PR of Dirk Eddelbuettel <edd@debian.org>
+    +   Minors changes in examples, default mc.cores to 2
 
 # quadrupen 0.2-7	(2019-08-27)
     Minor:

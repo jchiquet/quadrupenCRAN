@@ -15,7 +15,7 @@ Additional changes:
   * change the default number of cores to 2
 
 * tested remotely with github action (macOS, ubuntu, Windows release, unbuntu devel)
-* tested remotely with winbuilder (devel)
+* tested remotely with win-builder (devel)
 * tested remotely with R-hub (release Ubuntu, Fedora)
 * tested locally on Ubuntu 20.04, R 4.0.2
 
