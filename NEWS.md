@@ -1,3 +1,7 @@
+# quadrupen dev version
+
+  * nothing new
+
 # quadrupen 0.2-8	(2020-11-04)
     Minor:
     +   Avoid warning in C++ to pass CRAN checks, thanks to a PR of Dirk Eddelbuettel <edd@debian.org>
