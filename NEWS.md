@@ -1,6 +1,7 @@
 # quadrupen 0.2-9
 
-  * patch for documentation in HTML5
+  - Adaptation due to new Matrix version 1.4-2
+  - fix for HTML5 in documentation
 
 # quadrupen 0.2-8	(2020-11-04)
     Minor:

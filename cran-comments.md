@@ -1,11 +1,8 @@
 
-The submission corrects the following requests from CRAN maintainers
-
-- formatting in DESCRIPTION (reference/citation)
+This submission is in response to a request from a CRAN maintainer due to upcoming switch to HTML5 in documentation
 
 * tested remotely with github action (macOS, ubuntu, Windows release, unbuntu devel)
-* tested remotely with win-builder (devel)
-* tested remotely with R-hub (release Ubuntu, Fedora)
+* tested remotely with win-builder (release, devel, oldrel1)
 * tested locally on Ubuntu 22.04, R 4.2.1
 
 ── R CMD check results ────────────────────────────────────────────────────────────── quadrupen 0.2-9 ────
