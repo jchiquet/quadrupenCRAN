@@ -1,6 +1,6 @@
-# quadrupen dev version
+# quadrupen 0.2-9
 
-  * nothing new
+  * patch for documentation in HTML5
 
 # quadrupen 0.2-8	(2020-11-04)
     Minor:
