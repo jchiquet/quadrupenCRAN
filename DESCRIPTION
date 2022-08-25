@@ -1,8 +1,8 @@
 Package: quadrupen
 Type: Package
 Title: Sparsity by Worst-Case Quadratic Penalties
-Version: 0.2-8-9000
-Date: 2020-11-04
+Version: 0.2-9
+Date: 2022-08-25
 Authors@R: c(
   person("Julien", "Chiquet", role = c("aut", "cre"), email = "julien.chiquet@inrae.fr",
       comment = c(ORCID = "0000-0002-3629-3429"))
@@ -21,9 +21,8 @@ Suggests:
     elasticnet,
     glmnet
 LinkingTo: Rcpp, RcppArmadillo
-Packaged: 2017-03-06 14:50:18 UTC; jchiquet
 NeedsCompilation: yes
 Maintainer: Julien Chiquet <julien.chiquet@inrae.fr>
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1
 Language: en-US
