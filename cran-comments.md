@@ -6,14 +6,11 @@ Minor release to fix deprecated way of setting an error streamin (Rcpp)Armardill
 * tested remotely with R-hub (Windows Server 2022, Fedora Linux, R-devel, clang, gfortran, Ubuntu Linux 20.04.1 LTS, R-release, GCC)
 * tested locally on Ubuntu 22.04, R 4.2.2
 
+   Status: OK
+   
 ── R CMD check results ─────────────────────────────────────────── quadrupen 0.2-10 ────
-Duration: 1m 48.3s
+Duration: 1m 48.9s
 
-❯ checking installed package size ... NOTE
-    installed size is  5.7Mb
-    sub-directories of 1Mb or more:
-      libs   5.6Mb
-
-0 errors ✔ | 0 warnings ✔ | 1 note ✖
+0 errors ✔ | 0 warnings ✔ | 0 notes ✔
 
 R CMD check succeeded
