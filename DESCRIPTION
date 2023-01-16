@@ -23,6 +23,8 @@ Suggests:
 LinkingTo: Rcpp, RcppArmadillo
 NeedsCompilation: yes
 Maintainer: Julien Chiquet <julien.chiquet@inrae.fr>
+URL: https://github.com/jchiquet/quadrupenCRAN
+BugReports: https://github.com/jchiquet/quadrupenCRAN/issues
 Encoding: UTF-8
 RoxygenNote: 7.2.3
 Language: en-US
