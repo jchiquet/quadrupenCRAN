@@ -31,7 +31,7 @@
 #' \|D \beta \|_{q} + \frac{\lambda_2}{2} \beta^T S \beta, }}
 #' \if{html}{
 #' \out{
-#' &beta;<sup>hat</sup><sub>&lambda;<sub>1</sub>,&lambda;<sub>2</sub></sub> = argmin<sub>&beta;</sub> 1/2 RSS(&beta) + &lambda;<sub>1</sub> &#124; D &beta; &#124;<sub>q</sub> + &lambda;/2 <sub>2</sub>&beta;<sup>T</sup> S &beta;, 
+#' &beta;<sup>hat</sup><sub>&lambda;<sub>1</sub>,&lambda;<sub>2</sub></sub> = argmin<sub>&beta;</sub> 1/2 RSS(&beta;) + &lambda;<sub>1</sub> &#124; D &beta; &#124;<sub>q</sub> + &lambda;/2 <sub>2</sub>&beta;<sup>T</sup> S &beta;, 
 #' }}
 #' \if{text}{\deqn{beta.hat(lambda1, lambda2) = argmin_beta 1/2
 #' RSS(beta) + lambda1 |D beta|_q + lambda2 beta' S beta,}} where
