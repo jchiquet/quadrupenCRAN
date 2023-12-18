@@ -30,9 +30,6 @@ SEXP elastic_net(SEXP BETA0    ,
 		 SEXP USECHOL  ,
 		 SEXP MONITOR  ) {
 
-  // disable messages being printed to the err2 stream
-  std::ostream nullstream(0);
-
   // Reading input variables
   bool intercept  = as<bool>   (INTERCEPT) ; // boolean for intercept mode
   bool normalize  = as<bool>   (NORMALIZE) ; // boolean for standardizing the predictor
