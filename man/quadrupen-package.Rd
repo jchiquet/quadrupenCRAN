@@ -2,10 +2,12 @@
 % Please edit documentation in R/quadrupen-package.R
 \docType{package}
 \name{quadrupen-package}
-\alias{quadrupen-package}
 \alias{quadrupen}
-\title{Sparsity by Worst-Case Quadratic Penalties}
+\alias{quadrupen-package}
+\title{quadrupen: Sparsity by Worst-Case Quadratic Penalties}
 \description{
+Fits classical sparse regression models with efficient active set algorithms by solving quadratic problems as described by Grandvalet, Chiquet and Ambroise (2017) \doi{10.48550/arXiv.1210.2077}. Also provides a few methods for model selection purpose (cross-validation, stability selection).
+
 This package is designed to fit accurately several popular
 penalized linear regression models using the algorithm proposed in
 Grandvalet, Chiquet and Ambroise (submitted) by solving quadratic
@@ -166,5 +168,9 @@ Useful links:
 
 }
 \author{
+\strong{Maintainer}: Julien Chiquet \email{julien.chiquet@inrae.fr} (\href{https://orcid.org/0000-0002-3629-3429}{ORCID})
+
+
 Julien Chiquet \email{julien.chiquet@inrae.fr}
 }
+\keyword{internal}

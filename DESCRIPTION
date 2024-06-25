@@ -2,7 +2,7 @@ Package: quadrupen
 Type: Package
 Title: Sparsity by Worst-Case Quadratic Penalties
 Version: 0.2-12
-Date: 2023-12-18
+Date: 2024-06-25
 Authors@R: c(
   person("Julien", "Chiquet", role = c("aut", "cre"), email = "julien.chiquet@inrae.fr",
       comment = c(ORCID = "0000-0002-3629-3429"))
