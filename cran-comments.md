@@ -1,19 +1,20 @@
 
-Minor release to fix deprecated way of setting error in (Rcpp)Armardillo and correction in documentation
+Minor release to fix error with version 14 of (Rcpp)Armardillo 
 
 * tested remotely with github action (macOS, ubuntu devel, old, release, Windows release)
 * tested remotely with win-builder (release, devel, oldrel)
-* tested remotely with R-hub (Windows Server 2022, Fedora Linux, R-devel, clang, gfortran)
-* tested locally on Ubuntu 22.04, R 4.3.2
+* tested locally on Ubuntu 22.04, R 4.4.1
 
-   Status: OK
-   
-── R CMD check results ──────────────────────── quadrupen 0.2-11 ────
-Duration: 2m 43.7s
+Status: 1 NOTE
+
+── R CMD check results ────────────────────────── quadrupen 0.2-12 ────
+Duration: 2m 42.2s
 
 ❯ checking installed package size ... NOTE
-    installed size is 10.6Mb
+    installed size is  6.1Mb
     sub-directories of 1Mb or more:
-      libs  10.2Mb
+      libs   5.6Mb
 
 0 errors ✔ | 0 warnings ✔ | 1 note ✖
+
+R CMD check succeeded

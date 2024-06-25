@@ -157,6 +157,14 @@ selection via the elastic net, JRSS(B), 2006.
 via the Lasso, JRSS(B), 1996.
 }
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/jchiquet/quadrupenCRAN}
+  \item Report bugs at \url{https://github.com/jchiquet/quadrupenCRAN/issues}
+}
+
+}
 \author{
 Julien Chiquet \email{julien.chiquet@inrae.fr}
 }
