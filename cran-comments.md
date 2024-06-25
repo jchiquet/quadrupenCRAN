@@ -5,10 +5,10 @@ Minor release to fix error with version 14 of (Rcpp)Armardillo
 * tested remotely with win-builder (release, devel, oldrel)
 * tested locally on Ubuntu 22.04, R 4.4.1
 
-Status: 1 NOTE
+   Status: 1 NOTE
 
 ── R CMD check results ────────────────────────── quadrupen 0.2-12 ────
-Duration: 2m 42.2s
+Duration: 2m 30.2s
 
 ❯ checking installed package size ... NOTE
     installed size is  6.1Mb
