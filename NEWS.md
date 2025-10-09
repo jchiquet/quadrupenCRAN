@@ -1,6 +1,7 @@
 # quadrupen 0.2-13
 
-  - Minor fix in w.r.t armadillo 15 (max/min vs .index_max/index_min )
+  - Minor fix w.r.t armadillo 15 (max/min vs .index_max/index_min )
+  - Minor fix w.r.t ggplot2 deprecated function (aes_)
 
 # quadrupen 0.2-12
 
