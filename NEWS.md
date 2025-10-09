@@ -2,6 +2,7 @@
 
   - Minor fix w.r.t armadillo 15 (max/min vs .index_max/index_min )
   - Minor fix w.r.t ggplot2 deprecated function (aes_)
+  - set default value of mc.core to 1 to avoid conflict with multi-threaded BLAS/LAPACK libraries
 
 # quadrupen 0.2-12
 
